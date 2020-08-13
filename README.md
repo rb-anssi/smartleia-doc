@@ -30,6 +30,7 @@ apt install sphinx
 apt install latexmk 
 apt install texlive-latex-recommended
 apt install texlive-latex-extra
+apt install texlive-fonts-recommended
 
 apt install python3-wheel
 apt install python3-setuptools
