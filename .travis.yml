@@ -23,8 +23,7 @@ jobs:
           script:
               # Install the smartleia Python package
               - git clone https://github.com/cw-leia/smartleia.git
-              - cd smartleia && pip3 install -r requirements.txt
-              - cd smartleia && python setup.py install
+              - cd smartleia && pip3 install -r requirements.txt && python3 setup.py install
               # Take care of the documentation now
               - pip3 install -U wheel
               - pip3 install -U setuptools
